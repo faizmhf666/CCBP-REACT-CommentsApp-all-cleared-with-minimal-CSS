@@ -1,0 +1,50 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.comments-app-container {
+  display: flex;
+  padding: 20px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 180px;
+}
+.button {
+  margin-top: 15px;
+  background-color: #0284c7;
+  color: white;
+  padding: 3px;
+  border-radius: 8px;
+  border: 0px solid transparent;
+  width: 120px;
+}
+.name-input {
+  width: 280px;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid #1e293b;
+}
+.comment-input {
+  width: 280px;
+  height: 130px;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid #1e293b;
+}
+.count {
+  background-color: #0ea5e9;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  margin-right: 6px;
+}
+.comment-header {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+}
